@@ -1,0 +1,83 @@
+
+
+
+/************ react default */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/************ notes app */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", Arial, sans-serif;}
+
+.note {
+  padding: 10px;
+  border: 1px solid #333;
+  margin: 15px;
+}
+
+button {
+  margin: 0 15px;
+}
+
+.panel:after,.panel:before{content:"";display:table;clear:both}
+
+.panel {  
+  padding:0.01em 16px;
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+.card {
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+.noteInput {  
+  padding: 10px 10px;   
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+}
+
+
+.noteBtn {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 4px; 
+}
+
+.container {  
+  margin-left: 15%;
+  margin-right: 15%;
+}
